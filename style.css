@@ -18,6 +18,7 @@
     --tobo-fucsia: #EF41AE;
     --tobo-secondarygreen: #89CC2D;
     --tobo-darkblue: #000044;
+    --tobo-grey: #8C8D90;
     --tobo-red: red;
     -tobo-green: green;
 }
@@ -55,3 +56,30 @@ header
     vertical-align: middle;
 }
 /* #endregion header */
+
+/* #region main */
+
+main
+{
+    width: 60%;
+    margin: auto;
+}
+
+.button_task
+{
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--tobo-blue);
+    color: var(--tobo-white);
+}
+
+.button_section
+{
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--tobo-white);
+    color: var(--tobo-grey);
+
+}
+
+/* #endregion main */
