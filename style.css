@@ -59,27 +59,38 @@ header
 
 /* #region main */
 
-main
+.container
 {
-    width: 60%;
-    margin: auto;
-}
-
-.button_task
-{
-    display: inline-block;
-    padding: 5px;
-    background-color: var(--tobo-blue);
-    color: var(--tobo-white);
-}
-
-.button_section
-{
-    display: inline-block;
-    padding: 5px;
+    width: 70%;
+    margin: 3rem auto;
+    border-radius: 5px;
     background-color: var(--tobo-white);
-    color: var(--tobo-grey);
-
 }
+
+.actions
+{
+    height: 50px;
+    padding: 0 50px;
+    border-bottom: 2px solid var(--tobo-white);
+}
+
+.btn_filled
+{
+    border: 1px solid var(--tobo-blue);
+    background-color: var(--tobo-blue);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn_empty
+{
+    border: 1px solid var(--tobo-grey);
+    background-color: var(--tobo-white);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
 
 /* #endregion main */
