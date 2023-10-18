@@ -1,0 +1,31 @@
+/* #region common */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root
+{
+    --tobo-white: white;
+    --tobo-blue: #4CAEE7;
+    --tobo-violet: #9B86EA;
+    --tobo-primarygreen: #63B88D;
+    --tobo-orange: #FA980D;
+    --tobo-fucsia: #EF41AE;
+    --tobo-secondarygreen: #89CC2D;
+    --tobo-darkblue: #000044;
+    --tobo-red: red;
+    -tobo-green: green;
+}
+/* #endregion common */
+
+/* #region utility */
+/* #endregion utility */
+
+/* #region header */
+
+/* #endregion header */
