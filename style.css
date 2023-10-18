@@ -28,4 +28,30 @@
 
 /* #region header */
 
+header
+{
+    width:100%;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    /* potevo mettere solo padding:10px;
+       preferisco nel caso poi voglio allargare o stringere solo una parte */
+    background-color: var(--tobo-white);
+    margin-bottom: 40px;
+}
+
+#logo_text
+{
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+#logo
+{
+    height: 100%;
+    vertical-align: middle;
+}
 /* #endregion header */
