@@ -20,7 +20,7 @@
     --tobo-darkblue: #000044;
     --tobo-grey: #8C8D90;
     --tobo-red: red;
-    -tobo-green: green;
+    --tobo-green: green;
 }
 /* #endregion common */
 
@@ -106,6 +106,74 @@ li
     color: var(--tobo-darkblue)
 }
 
+li .circle
+{
+    border-bottom: 1px solid var(--tobo-white);
+}
+
+li .circle::before
+{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%; /* da quadrato diventa tondo*/
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .circle.delete::before
+{
+    content: '\2573';
+    border: 1px solid var(--tobo-red);
+    color: var(--tobo-red);
+}
+
+li .circle.check::before
+{
+    content: '\2713';
+    border: 1px solid var(--tobo-green);
+    color: var(--tobo-green);
+}
+
+.tag
+{
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: var(--tobo-white);
+}
+
+.tag_type_1
+{
+    background-color: var(--tobo-blue);
+}
+
+.tag_type_2
+{
+    background-color: var(--tobo-violet);
+}
+
+.tag_type_3
+{
+    background-color: var(--tobo-primarygreen);
+}
+
+.tag_type_4
+{
+    background-color: var(--tobo-orange);
+}
+
+.tag_type_5
+{
+    background-color: var(--tobo-fucsia);
+}
+
+.tag_type_6
+{
+    background-color: var(--tobo-secondarygreen);
+}
 
 
 
