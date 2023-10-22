@@ -107,10 +107,6 @@ li
     color: var(--tobo-darkblue)
 }
 
-li .circle
-{
-    border-bottom: 1px solid var(--tobo-white);
-}
 
 li .circle::before
 {
