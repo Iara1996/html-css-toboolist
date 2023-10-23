@@ -36,11 +36,11 @@ header
     height: 70px;
     background-color: var(--tobo-white);
     margin-bottom: 40px;
-    line-height: 70px;
 }
 
 #logo_text
 {
+    line-height: 70px;
     font-size: 38px;
     font-weight: 900;
     vertical-align: middle;
